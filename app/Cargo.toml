@@ -11,4 +11,4 @@ anyhow = "1.0.51"
 application = { path = "../application" }
 common = { path = "../common" }
 ports = { path = "../ports" }
-tokio = { version = "1.15.0", features = ["macros", "rt-multi-thread"] }
+tokio = { version = "1.18.5", features = ["macros", "rt-multi-thread"] }

@@ -11,4 +11,4 @@ domain = { path = "../domain" }
 mockall = "0.11.0"
 ports = { path = "../ports" }
 thiserror = "1.0.30"
-tokio = { version = "1.15.0", features = ["macros", "rt-multi-thread"] }
+tokio = { version = "1.18.5", features = ["macros", "rt-multi-thread"] }

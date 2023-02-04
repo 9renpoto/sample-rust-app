@@ -9,5 +9,5 @@ edition = "2021"
 ports = { path = "../ports" }
 domain = { path = "../domain" }
 common = { path = "../common" }
-tokio = { version = "1.15.0", features = ["macros", "sync", "rt-multi-thread"] }
+tokio = { version = "1.18.5", features = ["macros", "sync", "rt-multi-thread"] }
 
